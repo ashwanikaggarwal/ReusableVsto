@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B34A94E-10CD-4852-85FB-2A5D2737E17A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reusable</RootNamespace>
+    <AssemblyName>Reusable</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\Generic.cs" />
+    <Compile Include="Common\Methods.cs" />
+    <Compile Include="Excel\Cleanup.cs" />
+    <Compile Include="Excel\DateCalculations.cs" />
+    <Compile Include="Excel\PivotCharts\ChartParam.cs" />
+    <Compile Include="Excel\PivotCharts\IChartParam.cs" />
+    <Compile Include="Excel\PivotCharts\IPivotChart.cs" />
+    <Compile Include="Excel\PivotCharts\PivotChart.cs" />
+    <Compile Include="Excel\PivotTables\IPivotTable.cs" />
+    <Compile Include="Excel\PivotTables\IPivotTableParam.cs" />
+    <Compile Include="Excel\PivotTables\PivotTable.cs" />
+    <Compile Include="Excel\PivotTables\PivotTableParam.cs" />
+    <Compile Include="Excel\QueryTables\IQueryTable.cs" />
+    <Compile Include="Excel\QueryTables\IQueryTableParam.cs" />
+    <Compile Include="Excel\QueryTables\QueryTable.cs" />
+    <Compile Include="Excel\QueryTables\QueryTableParam.cs" />
+    <Compile Include="Logging\DesktopLogging.cs" />
+    <Compile Include="Logging\EventLog.cs" />
+    <Compile Include="Excel\Common.cs" />
+    <Compile Include="IO\GetUniversalName.cs" />
+    <Compile Include="IO\Selection.cs" />
+    <Compile Include="Logging\IMessage.cs" />
+    <Compile Include="Logging\Message.cs" />
+    <Compile Include="Logging\MessageList.cs" />
+    <Compile Include="Logging\MessageQueueLog.cs" />
+    <Compile Include="Logging\SmtpMailMessage.cs" />
+    <Compile Include="Logging\SmtpMessageParameters.cs" />
+    <Compile Include="Logging\StaticEventLog.cs" />
+    <Compile Include="Text\Regex.cs" />
+    <Compile Include="WPF\DispatchingObservableCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WPF\RelayCommand.cs" />
+    <Compile Include="IO\StreamTools.cs" />
+    <Compile Include="Threading\ThreadArray.cs" />
+    <Compile Include="XmlTools\XmlTools.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
