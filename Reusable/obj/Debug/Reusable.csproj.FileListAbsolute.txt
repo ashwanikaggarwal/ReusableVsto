@@ -1,0 +1,7 @@
+G:\My Documents\GitHub\ReusableVsto\Reusable\bin\Debug\Reusable.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable\bin\Debug\Reusable.pdb
+G:\My Documents\GitHub\ReusableVsto\Reusable\obj\Debug\Reusable.csprojAssemblyReference.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable\obj\Debug\Reusable.csproj.ResolveComReference.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable\obj\Debug\Reusable.csproj.CoreCompileInputs.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable\obj\Debug\Reusable.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable\obj\Debug\Reusable.pdb

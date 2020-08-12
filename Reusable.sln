@@ -1,25 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reusable", "Reusable\Reusable.csproj", "{0B34A94E-10CD-4852-85FB-2A5D2737E17A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reusable.Test", "Reusable.Test\Reusable.Test.csproj", "{95E8DDDE-DEE0-486B-BD1F-11E18E6A656D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamepleAddIn", "SamepleAddIn\SamepleAddIn.csproj", "{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamepleAddInWeb", "SamepleAddInWeb\SamepleAddInWeb.csproj", "{B4FB59F1-B9C7-4FF3-92A9-7B551FB19854}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://codedotnet.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Reusable\\Reusable.csproj
-		SccProjectName1 = Reusable
-		SccLocalPath1 = Reusable
-		SccProjectUniqueName2 = Reusable.Test\\Reusable.Test.csproj
-		SccProjectName2 = Reusable.Test
-		SccLocalPath2 = Reusable.Test
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -33,8 +25,21 @@ Global
 		{95E8DDDE-DEE0-486B-BD1F-11E18E6A656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E8DDDE-DEE0-486B-BD1F-11E18E6A656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E8DDDE-DEE0-486B-BD1F-11E18E6A656D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA634CE-7D4C-4F07-9702-5E7F2208DA9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B4FB59F1-B9C7-4FF3-92A9-7B551FB19854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FB59F1-B9C7-4FF3-92A9-7B551FB19854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FB59F1-B9C7-4FF3-92A9-7B551FB19854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FB59F1-B9C7-4FF3-92A9-7B551FB19854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F380BEA-4DDA-4FB3-87B8-F49A45FF9410}
 	EndGlobalSection
 EndGlobal

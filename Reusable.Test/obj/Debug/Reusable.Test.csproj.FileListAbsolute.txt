@@ -1,0 +1,11 @@
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\bin\Debug\Reusable.Test.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\bin\Debug\Reusable.Test.pdb
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\bin\Debug\Reusable.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\bin\Debug\Reusable.pdb
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.csprojAssemblyReference.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.csproj.ResolveComReference.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.csproj.CoreCompileInputs.cache
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.csproj.CopyComplete
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.dll
+G:\My Documents\GitHub\ReusableVsto\Reusable.Test\obj\Debug\Reusable.Test.pdb
